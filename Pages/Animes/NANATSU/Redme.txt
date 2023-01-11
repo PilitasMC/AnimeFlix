@@ -1,0 +1,3 @@
+Coloca los episodios aca y renombralos por oder numerico
+Como 1.mp4,2.mp4,3.mp4 etc, coloca el nombre del episodio
+en el array dentro del script ya sabes separados por coma.

@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,200;1,400&display=swap");
+
+*{
+    --colorPrimario: rgb(9, 130, 201);
+    --colorSecundario: #ffbf00;
+    --finalColor: rgb(255, 255, 255);
+    --dark: #121212;
+    /*PALETA PARA MODO OSCURO*/ /*Si lo se soy el mas malo colocando nombres*/ 
+    --darkBackground: #192328;
+    --darker: #131B21;
+    --textDark: #A0A6AC;
+    --textMenu: #EDEDEE; /*Never used i dont know*/
+
+}
+body{
+    font-family: 'Krub', sans-serif;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    color: var(--dark);
+}
+h1,p,a{
+    text-align: center;
+}
+/*-------------------------------------------------------------*/
+/*Menu*/
+.heading{
+    display: grid;
+    grid-template-columns: 95% 5%;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: var(--colorPrimario);
+    max-width: 100%;
+}
+.menu-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 80rem;
+    max-width: 100%;
+    margin: 0 auto;
+}/*Alineacion */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 38%;
+}
+.menu a{
+    padding: 1rem;
+    color: var(--finalColor);
+}
+.menu a:hover{
+    background-color: var(--colorSecundario);
+    border-radius: .5rem;
+}
+.web-logo{
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+}
+.web-logo h2{
+    color: var(--colorSecundario);
+}/*Menu Finished*/
+
+/*Reproductor*/
+.player-container{
+    margin-top: 2rem;
+}
+.video-play{
+    width: 40rem;
+    height: 20rem;
+}
+video{
+    max-width:100%;
+}
+.player-blocks{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    column-gap: 2rem;
+    margin: 0 auto;
+    width: 95%;
+}
+.player-cont{
+    align-content: center;
+    padding-bottom: 1rem;
+    position: relative;
+    width: 36rem;
+}
+.episodio{
+    margin: .3rem 0;
+    width: 12rem;
+    position: relative;
+}
+
+.anime-name{
+    margin: .4rem 0;
+}
+.player-cont video{
+    width: 90%;
+    align-items: center;
+}
+/*Botones de Anterior Download & Siguiente*/
+.buttons-player{
+    display: flex;
+    width: 50%;
+    column-gap: 1rem;
+}
+.btn{
+    background-color: var(--colorPrimario);
+    color: white;
+    padding: .8rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1rem;
+}
+.btn:hover{
+    background-color: var(--colorSecundario);
+    color: var(--colorPrimario);
+}
+/*Episodio poster*/
+.anime-poster{
+    background-size: cover;
+    width: 12rem;
+    height: 18rem;
+    border-radius: 1rem;
+}
+.episodios-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: auto;
+    scroll-behavior: smooth;
+    max-width: 100%;
+}
+/*Play hover*/
+.play-container{
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 100%;
+    height: 85%;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.anime:hover .play-container{
+    display: flex;
+}
+.info{
+    color: black;
+}
+/*Secundary block*/
+/*
+.secundary-block{
+    width: 100%;
+}*/
+
+/*Bloque de redes sociales al lado del reproductor*/
+.social-block{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+}
+.social-block a{
+    color: black;
+    width: 90%;
+}
+.social{
+    display: flex;
+    align-items: center;
+    background-color: var(--colorSecundario);
+    border-radius: 1rem;
+}
+.informacion p,span{
+    margin: 0;
+}
+.follow{
+    font-size: .8rem;
+}
+
+/*Posters de los animes recomendados son solo 2*/
+#kny{
+    background-image: url("../IMGs/KNY-Poster.jpg");
+}
+#nnt{
+    background-image: url("../IMGs/NNT-Poster.jpg");
+}
+/*Darkmode Styles Boton de modo oscuro*/
+#dark-button{
+    background: none;
+    border: none;
+    position: relative;
+    display: flex;
+}
+#dark-button:hover{
+    cursor: pointer;
+}
+.bodyDark{
+    background-color: var(--darkBackground);
+    color: var(--textDark);
+}
+.container-dark{
+    background-color: var(--darker);
+}
+.info-dark p{
+    color: var(--textDark);
+}
+/*Follow Us text Color in Player*/
+.followUs p,span{
+    color: var(--textMenu);
+}
+.social-dark{
+    background-color: var(--darker);
+}

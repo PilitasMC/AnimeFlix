@@ -1,0 +1,34 @@
+
+/*Poster de los animes en la pagina de inicio*/
+.dragonball{
+    background-image: url("./IMGs/DBS.jpg");
+}
+.boruto{
+    background-image: url("./IMGs/Boruto.jpg");
+}
+.kimetsu{
+    background-image: url("./IMGs/KNY.jpg");
+}
+.drstone{
+    background-image: url("./IMGs/DrStone.jpg");
+}
+/*2do bloque de anime*/
+.nagatoro{
+    background-image: url("./IMGs/Nagatoro.jpg");
+}
+.nanatsu{
+    background-image: url("./IMGs/Nnt.jpg");
+}
+.plunderer{
+    background-image: url("./IMGs/Plunderer.jpg");
+}
+.Konosuba{
+    background-image: url("./IMGs/Konosuba.jpg");
+}
+/*Anime de dia y semanal*/
+.drstone-poster{
+    background-image: url("./IMGs/Movies/Dr-Stone-Poster.PNG");
+}
+.kimetsu-poster{
+    background-image: url("./IMGs/Movies/KNY-Poster.jpg");
+}

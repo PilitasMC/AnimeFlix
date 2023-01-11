@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver </title>
+    <link rel="stylesheet" href="../Style.css">
+    <link rel="stylesheet" href="../../../Css/video-js.min.css">
+</head>
+<body>
+    <section class="heading">
+        <h1>Disfruta de los mejores Anime</h1>
+        <div class="dark-mode" id="darking-button">
+            <button class="dark-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sun sun dark" id="dark" width="44" height="44" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="4" />
+                    <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
+                  </svg>
+                  <!-------------------------------->
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon-stars moon" id="moon" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+                    <path d="M17 4a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2" />
+                    <path d="M19 11h2m-1 -1v2" />
+                  </svg>
+            </button>
+        </div>
+    </section>
+    <div class="container">
+        <div class="menu-container">
+            <div class="web-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-tv" width="52" height="52" viewBox="0 0 24 24" stroke-width="2" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="3" y="7" width="18" height="13" rx="2" />
+                    <polyline points="16 3 12 7 8 3" />
+                  </svg>
+                <a href="../../../Index.html">
+                    <h2>AnimeFlix</h2>
+                </a>
+            </div>
+         <nav class="menu">
+            <a href="../../../Index.html">Inicio</a>
+            <a href="">En Emision</a>
+            <a href="">Peliculas</a>
+            <a href="">About me</a>
+         </nav>
+         <div class="mobile-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="4" y1="6" x2="20" y2="6" />
+                <line x1="4" y1="12" x2="20" y2="12" />
+                <line x1="4" y1="18" x2="20" y2="18" />
+              </svg>
+         </div>
+        </div>
+    </div>
+    <!--Fin del menu-->
+    <div class="player-container">
+        <div class="player-blocks">
+            <div class="player-cont">
+                <h2 class="anime-name">dont toy with me! ijiranaide nagatoro san</h2>
+                <h4 class="episodio">capitulo <span id="capitulo">1</span></h4>
+                <div class="video-play">
+                    <video id="anime" class="video-js anime" controls preload="auto" autoplay
+		                data-setup="{}">
+                    <source id="anime" src="./1.mp4" type="video/mp4">
+                </div>
+                <div class="under-video">
+                    <h3 class="episodio-name" id="name">Eres un poco... - ¿No vas a enojarte?</h3>
+                    <div class="buttons-player">
+                        <button class="btn" id="ant">Anterior</button>
+                        <button class="btn" id="download">Descargar</button>
+                        <button class="btn" id="sig">Siguiente</button>
+                        <div class="dark-mode">
+                            <button class="dark-button" id="button-mobile">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sun sun dark" id="dark" width="44" height="44" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <circle cx="12" cy="12" r="4" />
+                                    <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
+                                  </svg>
+                                  <!-------------------------------->
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon-stars moon" id="moon" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+                                    <path d="M17 4a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2" />
+                                    <path d="M19 11h2m-1 -1v2" />
+                                  </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="episodios">
+                <h2>animes recomendados</h2>
+                <div class="episodios-container">
+                    <div class="episodio">
+                        <a href="../KONOSUBA/Player.html" class="anime">
+                            <div class="play-container">
+                                <div class="play-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-play" width="44" height="44" viewBox="0 0 24 24" stroke-width="3" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M7 4v16l13 -8z" />
+                                      </svg>
+                                </div>
+                            </div>
+                            <div class="anime-poster poster" id="konosuba"></div>
+                            <div class="info">
+                                <p>konosuba</p>
+                            </div>
+                        </a>
+                    </div>
+                 <!----------->
+                    <div class="episodio">
+                        <a href="../KIMETSU/Player.html" class="anime">
+                            <div class="play-container">
+                                <div class="play-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-play" width="44" height="44" viewBox="0 0 24 24" stroke-width="3" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M7 4v16l13 -8z" />
+                                      </svg>
+                                </div>
+                            </div>
+                            <div class="anime-poster poster" id="kny"></div>
+                            <div class="info">
+                                <p>kimetsu no yaiba</p>
+                            </div>
+                        </a>
+                        </div>
+                </div>
+                <div class="social-block">
+                    <a href="">
+                        <div class="social">
+                            <div class="logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="60" height="60" viewBox="0 0 24 24" stroke-width="2" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                                  </svg>
+                            </div>
+                            <div class="informacion">
+                                <p class="follow">Siguenos en</p>
+                                <span>facebook</span>
+                            </div>
+                        </div>
+                    </a>
+                    <!--------------------------------------------->
+                    <a href="">
+                        <div class="social">
+                            <div class="logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="60" height="60" viewBox="0 0 24 24" stroke-width="2" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                                  </svg>
+                            </div>
+                            <div class="informacion">
+                                <p class="follow">Siguenos en</p>
+                                <span>twitter</span>
+                            </div>
+                        </div>
+                    </a>
+                    <!--------------------------------------------->
+                    <a href="">
+                        <div class="social">
+                            <div class="logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitch" width="60" height="60" viewBox="0 0 24 24" stroke-width="2" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M4 5v11a1 1 0 0 0 1 1h2v4l4 -4h5.584c.266 0 .52 -.105 .707 -.293l2.415 -2.414c.187 -.188 .293 -.442 .293 -.708v-8.585a1 1 0 0 0 -1 -1h-14a1 1 0 0 0 -1 1z" />
+                                    <line x1="16" y1="8" x2="16" y2="12" />
+                                    <line x1="12" y1="8" x2="12" y2="12" />
+                                  </svg>
+                            </div>
+                            <div class="informacion">
+                                <p class="follow">Siguenos en</p>
+                                <span>twitch</span>
+                            </div>
+                        </div>
+                    </a>
+                    <!--------------------------------------------->
+                    <a href="">
+                        <div class="social">
+                            <div class="logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-discord" width="60" height="60" viewBox="0 0 24 24" stroke-width="2" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <circle cx="9" cy="12" r="1" />
+                                    <circle cx="15" cy="12" r="1" />
+                                    <path d="M7.5 7.5c3.5 -1 5.5 -1 9 0" />
+                                    <path d="M7 16.5c3.5 1 6.5 1 10 0" />
+                                    <path d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833 -1.667 3.5 -3c.667 -1.667 .5 -5.833 -1.5 -11.5c-1.457 -1.015 -3 -1.34 -4.5 -1.5l-1 2.5" />
+                                    <path d="M8.5 17c0 1 -1.356 3 -1.832 3c-1.429 0 -2.698 -1.667 -3.333 -3c-.635 -1.667 -.476 -5.833 1.428 -11.5c1.388 -1.015 2.782 -1.34 4.237 -1.5l1 2.5" />
+                                  </svg>
+                            </div>
+                            <div class="informacion">
+                                <p class="follow">Unete a</p>
+                                <span>discord</span>
+                            </div>
+                        </div>  
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+    <script src="../../../Js/jQuery.js"></script>
+    <script src="../../../Js/Script.js"></script>
+    <script src="../../../Js/video.min.js"></script>
+    <script type="text/javascript">
+    
+        var myPlayer = videojs('my-video');
+        videojs("my-video").ready(function(){
+            var myPlayer = this;
+            myPlayer.play();
+        });
+          
+      </script> 
+</body>
+</html>

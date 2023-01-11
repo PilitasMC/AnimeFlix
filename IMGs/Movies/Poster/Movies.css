@@ -1,0 +1,43 @@
+
+/*Poster de los animes en la pagina de inicio*/
+.kny-mugen{
+    background-image: url("./KNY-Mugen-Train.jpg");
+}
+.dbs-hero{
+    background-image: url("./Dragon-Ball-Super-Super-Hero.jpg");
+}
+.konosuba{
+    background-image: url("./Konosuba_Legend_of_Crimson.jpg");
+}
+.drstone{
+    background-image: url("./DrStone-Ryusui.jpg");
+}
+/*2do bloque de anime*/
+.naruto{
+    background-image: url("./Naruto-The-Last.jpg");
+}
+.nanatsu{
+    background-image: url("./NNT-Prisioneros-del-cielo.jpg");
+}
+.dbs-broly{
+    background-image: url("./DBS-Broly.jpg");
+}
+.my-hero{
+    background-image: url("./My-hero-academia-mision-mundia.jpg");
+}
+/*Anime de dia y semanal*/
+.drstone-poster{
+    background-image: url("./DrStone-Ryusui.jpg");
+}
+.kimetsu-poster{
+    background-image: url("./KNY-Mugen-Train.jpg");
+}
+
+
+/*Poster para el reproductor de Peliculas -_-
+/*Si ya lo se se soy un tacaño en cuanto a hojas de estilo pero el almacenamiento
+va primero comoa oh si*/
+
+.peli-poster{
+    background-image: url("./KNY-Mugen-Train.jpg");
+}
